@@ -1,0 +1,22 @@
+:host {
+  display: block;
+}
+.message-box {
+	padding: 16px;
+	border-radius: 4px;
+	color: #fff;
+  line-height: 22px;
+  text-align: center;
+	&_default {
+		background-color: aquamarine;
+	}
+	&_success {
+		background-color: #22C532;
+	}
+  &_error_external {
+    background-color: #e42d00;
+  }
+  &_warning {
+    background-color: #f2a102;
+  }
+}
