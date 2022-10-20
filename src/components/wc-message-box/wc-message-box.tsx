@@ -2,7 +2,7 @@ import { Component, h, Host, Prop } from '@stencil/core';
 
 @Component({
   tag: 'wc-message-box',
-  styleUrl: 'message-box.scss',
+  styleUrl: 'wc-message-box.scss',
   shadow: true,
 })
 export class MessageBox {

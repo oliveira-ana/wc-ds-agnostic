@@ -1,11 +1,11 @@
 import { newE2EPage } from '@stencil/core/testing';
 
-describe('message-box', () => {
+describe('wc-message-box', () => {
   it('renders', async () => {
     const page = await newE2EPage();
-    await page.setContent('<message-box></message-box>');
+    await page.setContent('<wc-message-box></wc-message-box>');
 
-    const element = await page.find('message-box');
+    const element = await page.find('wc-message-box');
     expect(element).toHaveClass('hydrated');
   });
 });

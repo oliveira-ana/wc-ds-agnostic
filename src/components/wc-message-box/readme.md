@@ -1,4 +1,4 @@
-# message-box
+# wc-message-box
 
 
 

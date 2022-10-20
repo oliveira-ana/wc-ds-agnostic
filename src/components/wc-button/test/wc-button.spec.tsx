@@ -1,18 +1,18 @@
 import { newSpecPage } from '@stencil/core/testing';
-import { MessageBox } from '../message-box';
+import { WcButton } from '../wc-button';
 
-describe('message-box', () => {
+describe('wc-button', () => {
   it('renders', async () => {
     const page = await newSpecPage({
-      components: [MessageBox],
-      html: `<message-box></message-box>`,
+      components: [WcButton],
+      html: `<wc-button></wc-button>`,
     });
     expect(page.root).toEqualHtml(`
-      <message-box>
+      <wc-button>
         <mock:shadow-root>
           <slot></slot>
         </mock:shadow-root>
-      </message-box>
+      </wc-button>
     `);
   });
 });
